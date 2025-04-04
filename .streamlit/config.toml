@@ -1,0 +1,6 @@
+[server]
+enableStaticServing = false
+enableXsrfProtection = false
+
+[runner]
+magicEnabled = false
