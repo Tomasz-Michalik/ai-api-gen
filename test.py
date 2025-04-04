@@ -10,7 +10,7 @@ def main():
     client = Groq(api_key=GROQ_API_KEY)
 
     # Pobranie promptu od użytkownika
-    user_prompt = st.text_input("Wprowadź prompt:", "Twój prompt tutaj")
+    user_prompt = st.text_input("Wprowadź prompt:", placeholder="Twój prompt tutaj")
 
     # Po kliknięciu przycisku wysyłamy żądanie
     if st.button("Wyślij zapytanie"):
