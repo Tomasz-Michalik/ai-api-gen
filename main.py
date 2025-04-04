@@ -11,8 +11,8 @@ class MainApplication:
         self.chat_bot = ChatBot(groq_api_key)
         self.api_test_generator = APITestGenerator(groq_api_key)
         self.modules = {
-            "📋 Generator Testów API": self.api_test_generator_module,
             "💼 Pomoc dla Rekruterów": self.recruiter_module,
+            "📋 Generator Testów API": self.api_test_generator_module,
             "💬 Prosty Chatbot": self.chatbot_module
         }
 
