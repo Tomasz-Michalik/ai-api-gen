@@ -11,7 +11,7 @@ def main():
 
     # Pobranie promptu od użytkownika
     user_prompt = st.text_input("Wprowadź prompt:", placeholder="Twój prompt tutaj")
-
+    user_prompt += ", Odpowiadaj zawsze w języku polskim."
     # Po kliknięciu przycisku wysyłamy żądanie
     if st.button("Wyślij zapytanie"):
         # Wysyłamy żądanie do modelu Groq. Nazwa funkcji send_request jest przykładowa,
